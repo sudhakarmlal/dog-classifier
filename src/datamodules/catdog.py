@@ -61,7 +61,7 @@ class DogDataModule(pl.LightningDataModule):
         file_id = "1-lbK2hPkOeZB-RfwLmeBj3oOSbsWU-ov"
         output_file = "exp/image_data.zip"
         gdown.download(f"https://drive.google.com/uc?id={file_id}", output_file)
-        os.chmod("image_data.zip", stat.S_IRWXO)
+        #os.chmod("image_data.zip", stat.S_IRWXO)
 
 #output = "dog-breed-image-dataset_gd_exp2.zip"
 #gdown.download(url, output)
@@ -69,10 +69,6 @@ class DogDataModule(pl.LightningDataModule):
                                       #download_root="/workspace/lightning-template-hydra/data/exp",
                                       #remove_finished=True,)
         
-    
-
-        out_path = '/data/exp'
-        zip_path = 'image_data.zip'
 
         #with zipfile.ZipFile('exp/image_data.zip', 'w') as new_zip:
             #new_zip.write('new.zip', compress_type=zipfile.ZIP_DEFLATED)

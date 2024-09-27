@@ -27,7 +27,7 @@ def print_config_tree(
         "extras",
     ),
     resolve: bool = False,
-    save_to_file: bool = False,
+    save_to_file: bool = True,
 ) -> None:
     """Prints content of config using Rich library and its tree structure."""
 

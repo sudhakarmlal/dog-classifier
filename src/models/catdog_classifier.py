@@ -15,6 +15,7 @@ class DogClassifier(L.LightningModule):
 
         # loss function
         self.criterion = torch.nn.CrossEntropyLoss()
+        self.save_hyperparameters(logger=False)
 
         # Multi-class accuracy with num_classes=2
         self.train_acc = Accuracy(task="multiclass", num_classes=10)

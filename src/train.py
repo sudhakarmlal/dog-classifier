@@ -27,7 +27,8 @@ def train():
     logger = TensorBoardLogger(save_dir="logs", name="dog_classification")
 
     # Set up callbacks
-    checkpoint_callback = ModelCheckpoint(monitor="val/loss")
+    #checkpoint_callback = ModelCheckpoint(monitor="val/loss",save_on_train_epoch_end=True,dirpath='/workspace/lightning-template-hydra/logs',filename="model.pt")
+    checkpoint_callback = ModelCheckpoint(save_on_train_epoch_end=True,dirpath='/workspace/lightning-template-hydra/logs',filename="model_tr")
     rich_progress_bar = RichProgressBar()
     rich_model_summary = RichModelSummary(max_depth=2)
 
