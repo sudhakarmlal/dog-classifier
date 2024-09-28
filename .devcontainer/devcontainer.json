@@ -1,1 +1,8 @@
-
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	}
+	
+}
