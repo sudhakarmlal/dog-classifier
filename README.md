@@ -1,4 +1,4 @@
-# Lightning Hydra Project Template
+# Dog Classifier Pytorch Lighting
 
 ## Requirements
 
