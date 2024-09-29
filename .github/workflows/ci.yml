@@ -59,7 +59,7 @@ jobs:
       with:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         tags: |
-          type=raw,value=session-05
+          type=raw,value=master
           type=sha
 
     - name: Build and push Docker image
