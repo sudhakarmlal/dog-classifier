@@ -128,7 +128,7 @@ This script will:
 - Save visualizations of the predictions in the output folder ie predictions folder.
 - Sample Image picked from the predictions folder is:
 
-  <img src="predictions/Dachshund_41_prediction.png" width="900"/>
+  <img src="predictions/Dachshund_41_prediction.png" width="400"/>
   
 
 ## Key Components
