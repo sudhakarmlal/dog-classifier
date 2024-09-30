@@ -2,6 +2,11 @@
 
 This project implements a dog breed classifier using PyTorch Lightning. It includes scripts for training, evaluation, and inference, along with utility functions for logging and error handling.
 
+Note:The Colab Notebook for the same is available at:
+
+https://github.com/sudhakarmlal/dog-classifier/blob/main/DogClassifier_PytorchLightning.ipynb
+
+
 ## Table of Contents
 1. [Project Structure](#project-structure)
 2. [Setup](#setup)
@@ -94,12 +99,19 @@ To evaluate a trained model, run:
 python src/eval.py --ckpt_path /path/to/checkpoint.ckpt
 ```
 
+
+
 This script will:
 - Load the specified model checkpoint
 - Evaluate the model on the test dataset
 - Generate and save a classification report
 
 The classification report will be saved as `logs/classification_report.txt`.
+
+
+The below is the classification generated out of the evaluation:
+
+<img src="Images/ClassificationReport.JPG" width="900"/>
 
 ### Inference
 
