@@ -111,7 +111,7 @@ The classification report will be saved as `logs/classification_report.txt`.
 
 The below is the classification generated out of the evaluation:
 
-<img src="Images/ClassificationReport.JPG" width="900"/>
+<img src="Images/ClassificationReport.JPG" width="400"/>
 
 ### Inference
 
