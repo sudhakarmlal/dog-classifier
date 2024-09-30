@@ -52,7 +52,7 @@ dog-classifier-pl/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/dog-classifier-pl.git
+   git clone https://github.com/yourusername/dog-classifier.git
    cd dog-classifier-pl
    ```
 
