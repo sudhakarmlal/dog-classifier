@@ -15,8 +15,9 @@ This project implements a dog breed classifier using PyTorch Lightning. It inclu
    - [Logging](#logging)
    - [Task Wrapper](#task-wrapper)
 5. [Running Tests](#running-tests)
-6. [Docker](#docker)
-7. [DevContainer](#devcontainer)
+6. [GitHub Actions](#code-coverage)
+7. [Docker](#docker)
+8. [DevContainer](#devcontainer)
 
 ## Project Structure
 
