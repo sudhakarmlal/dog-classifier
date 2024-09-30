@@ -151,6 +151,8 @@ poetry run pytest
 
 This will execute all tests in the `tests/` directory. You can run specific test files or functions using pytest's filtering options.
 
+## GitHub Actions and Code Coverage
+
 ## Docker
 
 To build and run the project using Docker:
