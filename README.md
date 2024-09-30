@@ -155,10 +155,15 @@ This will execute all tests in the `tests/` directory. You can run specific test
 For running the GitHub actions the python classes for DataModule and DogClassifier is under under the test directory and CI pipeline is created for the same with integration of code coverage.The below is the code coverage results for the same 
 
 Below is the  screenshot for the test passed for DogClassifier and DogDataModule
-<img src="Images/DogModuleTestPassed.JPG" width="700"/>
+
+
+<img src="Images/DogModuleTestPassed.JPG" width="900"/>
+
+
 
 Also find the screnshot for the code coverage for DogClassifier and DataModule
-<img src="Images/CodeCoverageScreenshot.JPG" width="500"/>
+
+<img src="Images/CodeCoverageScreenshot.JPG" width="700"/>
 
 ## Docker
 
