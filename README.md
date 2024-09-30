@@ -156,6 +156,7 @@ For running the GitHub actions the python classes for DataModule and DogClassifi
 
 ![CodeCoverage](Images
 /CodeCoverageScreenshot.JPG)
+<img src="Images/CodeCoverateScreenshot.JPG" width="128"/>
 
 ## Docker
 
