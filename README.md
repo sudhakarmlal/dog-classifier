@@ -125,7 +125,11 @@ This script will:
 - Load the specified model checkpoint
 - Process all images in the input folder
 - Generate predictions for each image
-- Save visualizations of the predictions in the output folder
+- Save visualizations of the predictions in the output folder ie predictions folder.
+- Sample Image picked from the predictions folder is:
+
+  <img src="predictions/Dachshund_41_prediction.png" width="900"/>
+  
 
 ## Key Components
 
